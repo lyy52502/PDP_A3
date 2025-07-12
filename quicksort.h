@@ -2,6 +2,12 @@
 #define QUICKSORT_H_
 
 #include <mpi.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#include "pivot.h"
+
 
 /**
  * Verify that elements are sorted in ascending order. If not, write an error
@@ -85,3 +91,4 @@ int sorted_ascending(int *elements, int n);
 void swap(int *e1, int *e2);
 
 #endif
+
